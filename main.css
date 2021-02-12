@@ -1,0 +1,80 @@
+html, body {
+	margin: 20px;
+	padding: 1px;
+	font-size: 18px;
+line-height: 1;
+}
+button {
+	background-color: red;
+}
+img {
+    filter: grayscale(50%);
+	width: 100%;
+	height: auto;
+}
+img:hover {
+    filter: grayscale(20%);
+}
+html {
+	background-color: #444;
+	color: white;
+}
+table, caption, th, td {
+	border: 1px solid #888;	
+	
+}
+table {
+	border-collapse: collapse;
+	margin: 10px auto;
+	width: 95%;
+}
+caption {
+	font-family: Arial,"Times New Roman", "Lucida Grande", "Lucida Sans", Geneva,sans-serif;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+th {
+	font-family: "Lucida Grande";
+}
+h1 {
+	background-color: hsla(10, 60%, 50%, 2);
+	text-align: center;
+	text-decoration: underline;
+}
+p, li {
+	font-family: "Calibri","Times New Roman", "Lucida Grande", "Lucida Sans", Geneva,Arial,sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+	margin: 2px;
+	letter-spacing: 0.03em;
+	line-height: 1.10;
+}
+a {
+	color: violet;
+	padding: 4px;
+	margin: 4px;
+	display: inline-block;
+	text-decoration: none;
+}
+a:hover {
+	color: white;
+}
+p::first-letter {
+	font-family: "Times New Roman", "Lucida Grande", "Lucida Sans", Geneva,Arial,sans-serif;
+	font-size: 30px;
+	
+}
+figcaption {
+	position: relative;
+	top: -80.5px;
+	padding: 10px 5px;
+	text-align: center;
+	font-size: 50px;
+	color: white;
+}
+h2 {
+	text-decoration-line: underline; 
+	background-color: hsla(10, 60%, 50%, 2);
+	text-align: center;
+}
